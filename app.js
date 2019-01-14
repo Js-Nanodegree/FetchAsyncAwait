@@ -95,5 +95,8 @@ var names = animals.map(function(animal){
 
 var nsames=animals.map((animal)=>animal.name)
 
+var nfsames=animals.find((animal)=>animal.name)
+
 console.log(names)
 console.log(nsames)
+console.log("find" + nfsames)
