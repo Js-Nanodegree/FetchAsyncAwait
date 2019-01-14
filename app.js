@@ -68,7 +68,7 @@ var animals=[
     {name:'fasfasfasds',species:'asfjdsdfgfafnjas'},
     {name:'fasfasfasds',species:'asfjdsasdaafnjas'},
     {name:'fasfasfasds',species:'asfjdsafnfasdjas'},
-    {name:'fasfasfasds',species:'asfjdsafnsafjas'},
+    {name:'fasfasssfasds',species:'asfjdsafnsafjas'},
     {name:'fasfasfasds',species:'asfjdsadfgdffnfsdjas'},
     {name:'fasfasfasds',species:'asfjdsadfhbfdfnjas'},
 ]
@@ -99,4 +99,4 @@ var nfsames=animals.find((animal)=>animal.name)
 
 console.log(names)
 console.log(nsames)
-console.log("find" + nfsames)
+console.log("find" + JSON.stringify(nfsames,null,2))
