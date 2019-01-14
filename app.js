@@ -88,3 +88,12 @@ var dogs=animals.filter(isdog).toString()
 console.log('filter odject '  + dogs)
 
 // console.log('reject '  + otherAnimal)
+
+var names = animals.map(function(animal){
+    return animal.name
+})
+
+var nsames=animals.map((animal)=>animal.name)
+
+console.log(names)
+console.log(nsames)
