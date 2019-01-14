@@ -49,4 +49,16 @@ for (const catId of user.cats){
 }
 return catImageUrls
 const result=PointAsyncSearche()
-result
+
+
+async function AsyncAwait()
+const response= await fetch()
+const user=await response.json()
+
+retuen await Promise.all(user.cats.map(async function(catId){
+    const response =await fetch()
+    const catData=await response.json()
+    return catData.imageUrl
+}))
+
+const result = AsyncAwait
